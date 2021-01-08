@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using DtiBackend.Models;
 using DtiBackend.Repositories;
 using Microsoft.AspNetCore.Mvc;
@@ -67,6 +64,4 @@ namespace DtiBackend.Controllers
             return NoContent();  //success
         }
     }
-    
-    
 }
